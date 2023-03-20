@@ -7,7 +7,7 @@ class Terraflow < Formula
     sha256 "1776160db53f299df397853310b5c6a7cf63da5ba7440395c4941893a6127e96"
     license "GNU Lesser General Public License (LGPL)"
   
-    depends_on "python@3.10"
+    depends_on "python@3.9"
 
     def install
       virtualenv_install_with_resources
