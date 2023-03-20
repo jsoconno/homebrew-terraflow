@@ -1,4 +1,4 @@
-class Yourproject < Formula
+class Terraflow < Formula
     include Language::Python::Virtualenv
   
     desc "A toolkit for making coding, documenting, and deploying Terraform simpler."
