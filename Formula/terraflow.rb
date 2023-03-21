@@ -23,6 +23,9 @@ class Terraflow < Formula
     virtualenv_install_with_resources
     libexec.install Dir["*"]
 
+    # Remove existing terraflow file if it exists
+    rm_f bin/"terraflow"
+
     (bin/"terraflow").write <<~EOS
       #!/bin/bash
       exec "#{libexec}/bin/python" "#{libexec}/terraflow/__init__.py" "$@"
