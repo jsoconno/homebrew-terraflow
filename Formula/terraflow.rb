@@ -21,7 +21,7 @@ class Terraflow < Formula
 
   def install
     virtualenv_install_with_resources
-    bin.install "terraflow"
+    bin.install "scripts/terraflow"
   end
 
   test do
