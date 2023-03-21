@@ -24,7 +24,6 @@ class Terraflow < Formula
     libexec.install Dir["*"]
     bin.install libexec/"terraflow"
     (bin/"terraflow").chmod 0755
-    bin.install_symlink libexec/"terraflow"
   end
 
   test do
