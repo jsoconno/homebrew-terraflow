@@ -74,3 +74,5 @@ class Terraflow < Formula
     assert_match "version #{version}", shell_output("#{bin}/terraflow --version")
   end
 end
+
+sed -i '' 's|^ *url .*\/terraflow\/archive\/.*\"|  url "'"$URL"'"\n  sha256 "'"$SHA256"'"/|g' $FORMULA_PATH
