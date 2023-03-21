@@ -21,7 +21,8 @@ class Terraflow < Formula
 
   def install
     virtualenv_install_with_resources
-    bin.install "scripts/terraflow"
+    libexec.install Dir["*"]
+    bin.install_symlink libexec/"terraflow"
   end
 
   test do
