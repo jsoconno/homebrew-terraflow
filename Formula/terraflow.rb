@@ -22,8 +22,8 @@ class Terraflow < Formula
   def install
     virtualenv_install_with_resources
     libexec.install Dir["*"]
-    bin.install libexec/"terraflow"
-    (bin/"terraflow").chmod 0755
+    (libexec/"terraflow").chmod 0755
+    bin.install_symlink libexec/"terraflow"
   end
 
   test do
