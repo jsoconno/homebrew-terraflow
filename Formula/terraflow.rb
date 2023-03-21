@@ -34,6 +34,7 @@ class Terraflow < Formula
 
     (bin/"terraflow").write <<~EOS
       #!/bin/bash
+      export PYTHONPATH="#{libexec}:$PYTHONPATH"
       exec "#{libexec}/bin/python" "#{libexec}/terraflow/__init__.py" "$@"
     EOS
 
