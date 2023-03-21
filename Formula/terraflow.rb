@@ -49,6 +49,11 @@ class Terraflow < Formula
     sha256 "35824b4c3a97115964b408844d64aa14db1cc518f6562e8d7261699d1350a9e3"
   end
 
+  resource "soupsieve" do
+    url "https://files.pythonhosted.org/packages/1b/cb/34933ebdd6bf6a77daaa0bd04318d61591452eb90ecca4def947e3cb2165/soupsieve-2.4.tar.gz"
+    sha256 "e28dba9ca6c7c00173e34e4ba57448f0688bb681b7c5e8bf4971daafc093d69a"
+  end
+
   def install
     virtualenv_install_with_resources
     libexec.install Dir["*"]
