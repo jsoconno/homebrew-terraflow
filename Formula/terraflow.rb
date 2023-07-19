@@ -3,8 +3,8 @@ class Terraflow < Formula
 
   desc "A toolkit for making coding, documenting, and deploying Terraform simpler."
   homepage "https://github.com/jsoconno/terraflow"
-  url "https://github.com/jsoconno/terraflow/archive/v0.1.7.tar.gz"
-  sha256 "e67e07ea8e4676aa222d0a6dae75da557fa3a7b4636d31505f2a47c58fdadb9d"
+  url "https://github.com/jsoconno/terraflow/archive/v0.2.0.tar.gz"
+  sha256 "65f4f4ff8f48f5250ea2216cabd784374b0672b88ed6a0e154415f888eaf3555"
   license "GNU Lesser General Public License (LGPL)"
 
   depends_on "python@3.10"
