@@ -7,7 +7,7 @@ class Terraflow < Formula
   sha256 "65f4f4ff8f48f5250ea2216cabd784374b0672b88ed6a0e154415f888eaf3555"
   license "GNU Lesser General Public License (LGPL)"
 
-  depends_on "python@3.10"
+  depends_on "python@3.9"
 
   resource "beautifulsoup4" do
     url "https://files.pythonhosted.org/packages/75/f8/de84282681c5a8307f3fff67b64641627b2652752d49d9222b77400d02b8/beautifulsoup4-4.11.2.tar.gz"
