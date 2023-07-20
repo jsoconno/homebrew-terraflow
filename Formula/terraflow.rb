@@ -3,8 +3,13 @@
 
 #   desc "A toolkit for making coding, documenting, and deploying Terraform simpler."
 #   homepage "https://github.com/jsoconno/terraflow"
+<<<<<<< HEAD
 #   url "https://github.com/jsoconno/terraflow/archive/v0.2.1.tar.gz"
 #   sha256 "1be75d80a452f151d9b0811f7773c31ad51586ad13c2b316de76af7e748dee0e"
+=======
+#   url "https://github.com/jsoconno/terraflow/archive/v0.2.0.tar.gz"
+#   sha256 "65f4f4ff8f48f5250ea2216cabd784374b0672b88ed6a0e154415f888eaf3555"
+>>>>>>> 57da5ae (test updated approach to allow users to download executable)
 #   license "GNU Lesser General Public License (LGPL)"
 
 #   depends_on "python@3.9"
