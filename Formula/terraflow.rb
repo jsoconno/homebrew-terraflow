@@ -155,6 +155,9 @@ class Terraflow < Formula
 
   def install
     bin.install "terraflow"
+  end
+
+  def post_install
     chmod 0755, bin/"terraflow"
   end
 end
