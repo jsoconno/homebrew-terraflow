@@ -1,10 +1,10 @@
 class Terraflow < Formula
   desc "A toolkit for making coding, documenting, and deploying Terraform simpler."
   homepage "https://github.com/jsoconno/terraflow"
-  url "https://github.com/jsoconno/terraflow/releases/download/v0.2.4/terraflow"
-  sha256 "21855e745eb0a6877d590d3b96e323483d8ced0108d5cbb2d5a4d37e5d69fc84"
+  url "https://github.com/jsoconno/terraflow/releases/download/v0.2.5/terraflow"
+  sha256 "ac7b73673e9287b7cf4e254e5c0251203b0d73d05487b4be26cdd792c078678a"
   license "GNU Lesser General Public License (LGPL)"
-  version "v0.2.4"
+  version "v0.2.5"
 
   def install
     bin.install "terraflow"
